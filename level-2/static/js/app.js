@@ -5,7 +5,7 @@ var tableData = data;
 var tbody = d3.select("tbody");
 
 function buildTable(data) {
-  // First, clear out any existing data
+  // Clear out any existing data
   tbody.html("");
 
   // Next, loop through each object in the data
